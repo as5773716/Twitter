@@ -1,0 +1,62 @@
+body {
+    background-color: #242d34;
+}
+
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(21, 21, 21);
+    width: 37.5rem;
+    height: 34.375rem;
+    border-radius: 20px;
+    box-shadow: 15px 15px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box
+ {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.twitter {
+    color: beige;
+    font-size: 28px;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.box-two {
+    background-color: transparent;
+    margin: 27px 0px 0px 23px;
+    width: 31.35rem;
+    height: 3.25rem;
+ 
+    border-color: #fff;
+    color: #fff;
+
+}
+
+.box-two:hover {
+    border-color: #1d9bf0;
+    border-radius: 20px;
+}
+
+button {
+    width: 31.25rem;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #4b565e;
+    color: #fff;
+   
+    cursor: pointer;
+}
+.space{
+    min-height: 20rem;
+}
